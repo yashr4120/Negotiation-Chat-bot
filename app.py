@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # Set your OpenAI API key
 # Make sure to replace the key with your own key or use environment variables
-# OpenAI.api_key = "YOUR_API_KEY"
+OpenAI.api_key = "YOUR_API_KEY"
 
 # Negotiation logic for price offers
 INITIAL_PRICE = 100
